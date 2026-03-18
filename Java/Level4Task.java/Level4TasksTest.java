@@ -7,8 +7,7 @@ public class Level4TasksTest {
     void testThatTheAdditionOfTwoPositiveNumbers() {
         Addition cal = new Addition();
         assertEquals(5, cal.addTwoNumbers(2, 3));
-    
-
+ 
 
 }
 

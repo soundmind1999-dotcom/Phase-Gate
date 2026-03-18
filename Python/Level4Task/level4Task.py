@@ -34,10 +34,6 @@ def largest_of_three_numbers(first_number, second_number, third_number):
 
 
 def simple_interest(principal, rate, time):
-
-    principal = float(input("Enter principal amount"))
-    time = float(input("Enter number of years"))
-    rate = int(input("Enter rate"))
     
     return (principal * rate * time) / 100
 
