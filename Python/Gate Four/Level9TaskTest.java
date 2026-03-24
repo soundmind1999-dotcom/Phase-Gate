@@ -7,9 +7,9 @@ public class Level9TaskTest {
 
     @Test
     void testSplitEvenOdd() {
-        int[] input = {1, 2, 3, 4};
+        int [] input = {1, 2, 3, 4};
 
-        int[][] result = Level9Task.splitEvenOdd(input);
+        int [][] result = Level9Task.splitEvenOdd(input);
 
         assertArrayEquals(new int[]{1, 3}, result[0]); 
         assertArrayEquals(new int[]{2, 4}, result[1]); 
@@ -17,9 +17,9 @@ public class Level9TaskTest {
 
     @Test
     void testPerfectSquares() {
-        int[] input = {1, 2, 3, 4, 5, 9};
+        int [] input = {1, 2, 3, 4, 5, 9};
 
-        int[] result = Level9Task.perfectSquares(input);
+        int [] result = Level9Task.perfectSquares(input);
 
         assertArrayEquals(new int[]{1, 4, 9}, result);
 }
@@ -32,9 +32,9 @@ public class Level9TaskTest {
 
     @Test
     void testReplaceNonSquares() {
-        int[] input = {1, 2, 3, 4};
+        int [] input = {1, 2, 3, 4};
 
-        int[] result = Level9Task.replaceNonSquares(input);
+        int [] result = Level9Task.replaceNonSquares(input);
 
         assertArrayEquals(new int[]{1, -1, -1, 4}, result);
    }

@@ -61,7 +61,7 @@ public class SimpleArithmeticApp {
 
 }
 
-        System.out.printf("You scored %d out of 10%n", numberOfCorrectAnswers);
+        System.out.printf("You scored %d out of 10", numberOfCorrectAnswers);
   }
 }
 

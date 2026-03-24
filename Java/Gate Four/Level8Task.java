@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class Level8Task {
 
-    public static int[] getPrimes(int[] numbers) {
-        int[] temp = new int[numbers.length];
+    public static int [] getPrimes(int [] numbers) {
+        int [] temp = new int[numbers.length];
         int count = 0;
 
         for (int number : numbers) {
@@ -14,16 +14,16 @@ public class Level8Task {
                     if (number % divisor == 0) {
                         isPrime = false;
                         break;
-                    }
+       }
                 }
 
                 if (isPrime) {
                     temp[count++] = number;
-                }
+      }
             }
         }
 
-        int[] result = new int[count];
+        int [] result = new int[count];
         for (int index = 0; index < count; index++) {
             result[index] = temp[index];
         }
@@ -31,7 +31,7 @@ public class Level8Task {
         return result;
     }
 
-    public static int[] replaceNegatives(int[] numbers) {
+    public static int [] replaceNegatives(int[] numbers) {
         for (int index = 0; index < numbers.length; index++) {
             if (numbers[index] < 0) {
                 numbers[index] = 0;
@@ -40,7 +40,7 @@ public class Level8Task {
         return numbers;
     }
 
-    public static int[] moveZeros(int[] numbers) {
+    public static int [] moveZeros(int[] numbers) {
         int[] result = new int[numbers.length];
         int position = 0;
 
